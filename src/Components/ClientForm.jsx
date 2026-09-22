@@ -16,7 +16,7 @@ function ClientForm() {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/mbgjjdqg", {
+      const response = await fetch("https://formspree.io/f/mdekglyz", {
         method: "POST",
         body: formData,
         headers: {
